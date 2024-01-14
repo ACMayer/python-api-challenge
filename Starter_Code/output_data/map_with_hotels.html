@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a89d6b0f2918fea254b972e317f21f3a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a89d6b0f2918fea254b972e317f21f3a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a89d6b0f2918fea254b972e317f21f3a = L.map(
+                "map_a89d6b0f2918fea254b972e317f21f3a",
+                {
+                    center: [-25.3, 45.4833],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6838c9711fbd654e82b3acdafc597ac7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+            var circle_marker_1c60b712ad61c92f96ad24a36e520834 = L.circleMarker(
+                [-25.3, 45.4833],
+                {"bubblingMouseEvents": true, "color": "#67b400ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#67b400ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.8, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_90bb8cafa56c9a8538b3a2aa4fb594df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_213db3419481d3ea6f1a47a5505e4670 = $(`<div id="html_213db3419481d3ea6f1a47a5505e4670" style="width: 100.0%; height: 100.0%;">City: tsiombe<br>Country: MG<br>Hotel: No Hotel found</div>`)[0];
+                popup_90bb8cafa56c9a8538b3a2aa4fb594df.setContent(html_213db3419481d3ea6f1a47a5505e4670);
+            
+        
+
+        circle_marker_1c60b712ad61c92f96ad24a36e520834.bindPopup(popup_90bb8cafa56c9a8538b3a2aa4fb594df)
+        ;
+
+        
+    
+    
+            var circle_marker_885e4933490319452da4fd7bbabee9cd = L.circleMarker(
+                [-28.95, -58.9833],
+                {"bubblingMouseEvents": true, "color": "#eaf500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eaf500ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.2, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_6e4baf2ea3d50b5447c21173e1091d09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0be8597945ad851c495a28b7d853cbd9 = $(`<div id="html_0be8597945ad851c495a28b7d853cbd9" style="width: 100.0%; height: 100.0%;">City: crucecita<br>Country: AR<br>Hotel: No Hotel found</div>`)[0];
+                popup_6e4baf2ea3d50b5447c21173e1091d09.setContent(html_0be8597945ad851c495a28b7d853cbd9);
+            
+        
+
+        circle_marker_885e4933490319452da4fd7bbabee9cd.bindPopup(popup_6e4baf2ea3d50b5447c21173e1091d09)
+        ;
+
+        
+    
+    
+            var circle_marker_e8bb7cdbaff01b988f1e207972f1f3d2 = L.circleMarker(
+                [-22.92, -42.5103],
+                {"bubblingMouseEvents": true, "color": "#ffdd00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffdd00ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.4, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_3d4fafb22c09faab4d39ca92d763dc5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42054a50bad786238395559f4f009236 = $(`<div id="html_42054a50bad786238395559f4f009236" style="width: 100.0%; height: 100.0%;">City: saquarema<br>Country: BR<br>Hotel: Pousada Garota de Itaúna</div>`)[0];
+                popup_3d4fafb22c09faab4d39ca92d763dc5e.setContent(html_42054a50bad786238395559f4f009236);
+            
+        
+
+        circle_marker_e8bb7cdbaff01b988f1e207972f1f3d2.bindPopup(popup_3d4fafb22c09faab4d39ca92d763dc5e)
+        ;
+
+        
+    
+    
+            var circle_marker_7d7246fa1978d2d49cb51bf4ec82848e = L.circleMarker(
+                [-21.6403, -41.0511],
+                {"bubblingMouseEvents": true, "color": "#ffce00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffce00ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.2, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_25a573dd9a4b7a7a991f071db9aea060 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a84183325b91396177aeba492fdd8b2 = $(`<div id="html_0a84183325b91396177aeba492fdd8b2" style="width: 100.0%; height: 100.0%;">City: sao joao da barra<br>Country: BR<br>Hotel: Pousada Mediterrâneo</div>`)[0];
+                popup_25a573dd9a4b7a7a991f071db9aea060.setContent(html_0a84183325b91396177aeba492fdd8b2);
+            
+        
+
+        circle_marker_7d7246fa1978d2d49cb51bf4ec82848e.bindPopup(popup_25a573dd9a4b7a7a991f071db9aea060)
+        ;
+
+        
+    
+    
+            var circle_marker_7c793cb13597b7b53e4fabcd7e802294 = L.circleMarker(
+                [15.1355, 145.701],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_4d2beef94c1db7f2ca6f741641c45e08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7dbe21eb562239fdc99f007470a893e5 = $(`<div id="html_7dbe21eb562239fdc99f007470a893e5" style="width: 100.0%; height: 100.0%;">City: saipan<br>Country: MP<br>Hotel: Chalan Kanoa Beach Hotel</div>`)[0];
+                popup_4d2beef94c1db7f2ca6f741641c45e08.setContent(html_7dbe21eb562239fdc99f007470a893e5);
+            
+        
+
+        circle_marker_7c793cb13597b7b53e4fabcd7e802294.bindPopup(popup_4d2beef94c1db7f2ca6f741641c45e08)
+        ;
+
+        
+    
+    
+            var circle_marker_b905c2616ee828459be37e7a29c5adee = L.circleMarker(
+                [32.0728, 64.8359],
+                {"bubblingMouseEvents": true, "color": "#0000ffff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ffff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.2, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_c1e9b72990537b4c6014a335b917d4d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ed19afb08aa4eb4d92c508429fbdd34 = $(`<div id="html_9ed19afb08aa4eb4d92c508429fbdd34" style="width: 100.0%; height: 100.0%;">City: sangin<br>Country: AF<br>Hotel: No Hotel found</div>`)[0];
+                popup_c1e9b72990537b4c6014a335b917d4d0.setContent(html_9ed19afb08aa4eb4d92c508429fbdd34);
+            
+        
+
+        circle_marker_b905c2616ee828459be37e7a29c5adee.bindPopup(popup_c1e9b72990537b4c6014a335b917d4d0)
+        ;
+
+        
+    
+    
+            var circle_marker_f9febf8d02a0add7dabd44f545d1480b = L.circleMarker(
+                [48.7292, 40.3636],
+                {"bubblingMouseEvents": true, "color": "#319800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#319800ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.8, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_4c3cc86573876efcd33de15b22feda54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5dddef91cf9652c053039d73c14270d = $(`<div id="html_d5dddef91cf9652c053039d73c14270d" style="width: 100.0%; height: 100.0%;">City: tarasovskiy<br>Country: RU<br>Hotel: No Hotel found</div>`)[0];
+                popup_4c3cc86573876efcd33de15b22feda54.setContent(html_d5dddef91cf9652c053039d73c14270d);
+            
+        
+
+        circle_marker_f9febf8d02a0add7dabd44f545d1480b.bindPopup(popup_4c3cc86573876efcd33de15b22feda54)
+        ;
+
+        
+    
+    
+            var circle_marker_deb51e8e0073ba1d4371c4c7676187db = L.circleMarker(
+                [-28.3352, 31.4162],
+                {"bubblingMouseEvents": true, "color": "#003693ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#003693ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.2, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_bd62a9297fc4109f275b454192152119 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9195a228ddc66d0d7128ed216b65c3d8 = $(`<div id="html_9195a228ddc66d0d7128ed216b65c3d8" style="width: 100.0%; height: 100.0%;">City: ulundi<br>Country: ZA<br>Hotel: Protea Hotel</div>`)[0];
+                popup_bd62a9297fc4109f275b454192152119.setContent(html_9195a228ddc66d0d7128ed216b65c3d8);
+            
+        
+
+        circle_marker_deb51e8e0073ba1d4371c4c7676187db.bindPopup(popup_bd62a9297fc4109f275b454192152119)
+        ;
+
+        
+    
+    
+            var circle_marker_620464eac9414dc8453a94827a20f0ac = L.circleMarker(
+                [45.7708, 33.4878],
+                {"bubblingMouseEvents": true, "color": "#269300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#269300ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.6, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_43ba741e5509af703ae0f26a90669ac4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_824d5b2cc972165f31b505c1dc6b1609 = $(`<div id="html_824d5b2cc972165f31b505c1dc6b1609" style="width: 100.0%; height: 100.0%;">City: razdol'noye<br>Country: UA<br>Hotel: Портовое</div>`)[0];
+                popup_43ba741e5509af703ae0f26a90669ac4.setContent(html_824d5b2cc972165f31b505c1dc6b1609);
+            
+        
+
+        circle_marker_620464eac9414dc8453a94827a20f0ac.bindPopup(popup_43ba741e5509af703ae0f26a90669ac4)
+        ;
+
+        
+    
+    
+            var circle_marker_2685267ce4de103d003daacd9c415670 = L.circleMarker(
+                [-10.7828, -65.3394],
+                {"bubblingMouseEvents": true, "color": "#ffdd00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffdd00ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.4, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_493eda0bcfc1dfca6fe3cfa7d757a1f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_388ad38dc36a2bc63b569610720b9342 = $(`<div id="html_388ad38dc36a2bc63b569610720b9342" style="width: 100.0%; height: 100.0%;">City: guajara mirim<br>Country: BR<br>Hotel: Novo Hotel Campos</div>`)[0];
+                popup_493eda0bcfc1dfca6fe3cfa7d757a1f6.setContent(html_388ad38dc36a2bc63b569610720b9342);
+            
+        
+
+        circle_marker_2685267ce4de103d003daacd9c415670.bindPopup(popup_493eda0bcfc1dfca6fe3cfa7d757a1f6)
+        ;
+
+        
+    
+    
+            var circle_marker_35f87107fb311f504f9ba8a8f18c09d0 = L.circleMarker(
+                [30.5092, 117.0506],
+                {"bubblingMouseEvents": true, "color": "#ff3f00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff3f00ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.2, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_5498b49556edfc609efcade74fbb7be1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49a2f5a10a831b0e382c9d9267dc74b4 = $(`<div id="html_49a2f5a10a831b0e382c9d9267dc74b4" style="width: 100.0%; height: 100.0%;">City: anqing<br>Country: CN<br>Hotel: 安庆大酒店</div>`)[0];
+                popup_5498b49556edfc609efcade74fbb7be1.setContent(html_49a2f5a10a831b0e382c9d9267dc74b4);
+            
+        
+
+        circle_marker_35f87107fb311f504f9ba8a8f18c09d0.bindPopup(popup_5498b49556edfc609efcade74fbb7be1)
+        ;
+
+        
+    
+    
+            var circle_marker_bef7d74d0762722addd17978d5e48a5a = L.circleMarker(
+                [36.2018, 29.6377],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.6, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_a61df2a812baaa79d8bd3a1fd720c99e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cc17d17e371a23e3569d36b3067370f = $(`<div id="html_1cc17d17e371a23e3569d36b3067370f" style="width: 100.0%; height: 100.0%;">City: kas<br>Country: TR<br>Hotel: KEKOVA OTEL</div>`)[0];
+                popup_a61df2a812baaa79d8bd3a1fd720c99e.setContent(html_1cc17d17e371a23e3569d36b3067370f);
+            
+        
+
+        circle_marker_bef7d74d0762722addd17978d5e48a5a.bindPopup(popup_a61df2a812baaa79d8bd3a1fd720c99e)
+        ;
+
+        
+    
+    
+            var circle_marker_ff64e1260420dc5485d24543acfef3ad = L.circleMarker(
+                [-24.5917, 27.4116],
+                {"bubblingMouseEvents": true, "color": "#0015d4ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0015d4ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_51df3e3f6744bb08ad1f3decb0e50493 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7433a2af4dc4623e98c6b5a6d4ecf91c = $(`<div id="html_7433a2af4dc4623e98c6b5a6d4ecf91c" style="width: 100.0%; height: 100.0%;">City: thabazimbi<br>Country: ZA<br>Hotel: Maroela Guest Lodge</div>`)[0];
+                popup_51df3e3f6744bb08ad1f3decb0e50493.setContent(html_7433a2af4dc4623e98c6b5a6d4ecf91c);
+            
+        
+
+        circle_marker_ff64e1260420dc5485d24543acfef3ad.bindPopup(popup_51df3e3f6744bb08ad1f3decb0e50493)
+        ;
+
+        
+    
+    
+            var circle_marker_d1338d16fec662a2e019ed0355723288 = L.circleMarker(
+                [-16.1564, 33.5867],
+                {"bubblingMouseEvents": true, "color": "#004772ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#004772ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.8, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_397ad8de5e55e8ddf7bac0c9e0a93e1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1a6863cb352727baf9ae0df5b88b55d = $(`<div id="html_d1a6863cb352727baf9ae0df5b88b55d" style="width: 100.0%; height: 100.0%;">City: tete<br>Country: MZ<br>Hotel: Zambezi Hotel</div>`)[0];
+                popup_397ad8de5e55e8ddf7bac0c9e0a93e1e.setContent(html_d1a6863cb352727baf9ae0df5b88b55d);
+            
+        
+
+        circle_marker_d1338d16fec662a2e019ed0355723288.bindPopup(popup_397ad8de5e55e8ddf7bac0c9e0a93e1e)
+        ;
+
+        
+    
+    
+            var circle_marker_99cdf33abd00b45313f251536f84a23a = L.circleMarker(
+                [-13.1256, 38.9997],
+                {"bubblingMouseEvents": true, "color": "#004c67ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#004c67ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_5e735333cfed34d5078d9ea59b0bca4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64e746fd814a713cf9642d10d14824ef = $(`<div id="html_64e746fd814a713cf9642d10d14824ef" style="width: 100.0%; height: 100.0%;">City: montepuez<br>Country: MZ<br>Hotel: Complexo Messalo</div>`)[0];
+                popup_5e735333cfed34d5078d9ea59b0bca4b.setContent(html_64e746fd814a713cf9642d10d14824ef);
+            
+        
+
+        circle_marker_99cdf33abd00b45313f251536f84a23a.bindPopup(popup_5e735333cfed34d5078d9ea59b0bca4b)
+        ;
+
+        
+    
+    
+            var circle_marker_c829b5ef61374db047a71c461203283a = L.circleMarker(
+                [31.9635, -83.7824],
+                {"bubblingMouseEvents": true, "color": "#ff9b00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9b00ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.6, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_104019c11dd50f3c3ec8ca947158531a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe9ed2235a42e2c1bb07a9272a67998e = $(`<div id="html_fe9ed2235a42e2c1bb07a9272a67998e" style="width: 100.0%; height: 100.0%;">City: cordele<br>Country: US<br>Hotel: Baymont by Wyndham Cordele</div>`)[0];
+                popup_104019c11dd50f3c3ec8ca947158531a.setContent(html_fe9ed2235a42e2c1bb07a9272a67998e);
+            
+        
+
+        circle_marker_c829b5ef61374db047a71c461203283a.bindPopup(popup_104019c11dd50f3c3ec8ca947158531a)
+        ;
+
+        
+    
+    
+            var circle_marker_19601bbc89a5a2c9b9e1b81fbc07ab05 = L.circleMarker(
+                [42.9333, 89.1667],
+                {"bubblingMouseEvents": true, "color": "#0015d4ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0015d4ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_09249ea497ce64ae3c74a3b3b912c768 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17b9cbd93471000691359de84a18dc7b = $(`<div id="html_17b9cbd93471000691359de84a18dc7b" style="width: 100.0%; height: 100.0%;">City: turpan<br>Country: CN<br>Hotel: Oriental</div>`)[0];
+                popup_09249ea497ce64ae3c74a3b3b912c768.setContent(html_17b9cbd93471000691359de84a18dc7b);
+            
+        
+
+        circle_marker_19601bbc89a5a2c9b9e1b81fbc07ab05.bindPopup(popup_09249ea497ce64ae3c74a3b3b912c768)
+        ;
+
+        
+    
+    
+            var circle_marker_99fc45eea2d3da48a4c9ba1f9e4bf1e1 = L.circleMarker(
+                [-27.2667, 28.4833],
+                {"bubblingMouseEvents": true, "color": "#0000ffff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ffff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.2, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_c2ba6ab6f6079b2c7b609909007a4cac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4e3fa9456e1fa6044f94f184a7598b7 = $(`<div id="html_b4e3fa9456e1fa6044f94f184a7598b7" style="width: 100.0%; height: 100.0%;">City: frankfort<br>Country: ZA<br>Hotel: No Hotel found</div>`)[0];
+                popup_c2ba6ab6f6079b2c7b609909007a4cac.setContent(html_b4e3fa9456e1fa6044f94f184a7598b7);
+            
+        
+
+        circle_marker_99fc45eea2d3da48a4c9ba1f9e4bf1e1.bindPopup(popup_c2ba6ab6f6079b2c7b609909007a4cac)
+        ;
+
+        
+    
+    
+            var circle_marker_675dd38a38662759aa488117313c98ca = L.circleMarker(
+                [35.139, -79.006],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.0, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_f5d2971e31ea3c328dc0854daad688e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1eb91180ae378b80be56895db109e485 = $(`<div id="html_1eb91180ae378b80be56895db109e485" style="width: 100.0%; height: 100.0%;">City: fort bragg<br>Country: US<br>Hotel: Airborne Inn Lodging</div>`)[0];
+                popup_f5d2971e31ea3c328dc0854daad688e2.setContent(html_1eb91180ae378b80be56895db109e485);
+            
+        
+
+        circle_marker_675dd38a38662759aa488117313c98ca.bindPopup(popup_f5d2971e31ea3c328dc0854daad688e2)
+        ;
+
+        
+    
+    
+            var circle_marker_efa0256843e094e9c86e151cabc000ce = L.circleMarker(
+                [35.6127, -77.3663],
+                {"bubblingMouseEvents": true, "color": "#ff7700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7700ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.6, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_389de58fdfee22d3fc6bf6c00aedf330 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28c4d9b8a34b68f35918280421d4bea1 = $(`<div id="html_28c4d9b8a34b68f35918280421d4bea1" style="width: 100.0%; height: 100.0%;">City: greenville<br>Country: US<br>Hotel: Quality Inn</div>`)[0];
+                popup_389de58fdfee22d3fc6bf6c00aedf330.setContent(html_28c4d9b8a34b68f35918280421d4bea1);
+            
+        
+
+        circle_marker_efa0256843e094e9c86e151cabc000ce.bindPopup(popup_389de58fdfee22d3fc6bf6c00aedf330)
+        ;
+
+        
+    
+    
+            var circle_marker_036fd172f236fdf5baa61b98e5b40036 = L.circleMarker(
+                [31.9974, -102.0779],
+                {"bubblingMouseEvents": true, "color": "#ffe800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe800ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.8, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_b953b3a0cb4cf582b0edf63c904a13e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_148ff23585feb9cb4c8892d3d9eefdf0 = $(`<div id="html_148ff23585feb9cb4c8892d3d9eefdf0" style="width: 100.0%; height: 100.0%;">City: midland<br>Country: US<br>Hotel: DoubleTree by Hilton Hotel Midland Plaza</div>`)[0];
+                popup_b953b3a0cb4cf582b0edf63c904a13e4.setContent(html_148ff23585feb9cb4c8892d3d9eefdf0);
+            
+        
+
+        circle_marker_036fd172f236fdf5baa61b98e5b40036.bindPopup(popup_b953b3a0cb4cf582b0edf63c904a13e4)
+        ;
+
+        
+    
+    
+            var circle_marker_ab4369646eb10f4188b8d56c4166ea17 = L.circleMarker(
+                [-17.8167, 25.15],
+                {"bubblingMouseEvents": true, "color": "#0015d4ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0015d4ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_ca5ac78f0a033e655f239ee98d5e5a32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88cc0cd83ee1e329e7e5f6aea51e5a4a = $(`<div id="html_88cc0cd83ee1e329e7e5f6aea51e5a4a" style="width: 100.0%; height: 100.0%;">City: kasane<br>Country: BW<br>Hotel: Kasane Travel Lodge</div>`)[0];
+                popup_ca5ac78f0a033e655f239ee98d5e5a32.setContent(html_88cc0cd83ee1e329e7e5f6aea51e5a4a);
+            
+        
+
+        circle_marker_ab4369646eb10f4188b8d56c4166ea17.bindPopup(popup_ca5ac78f0a033e655f239ee98d5e5a32)
+        ;
+
+        
+    
+    
+            var circle_marker_2b64fcb568d9ed73ffaa2e14071d6364 = L.circleMarker(
+                [35.7333, 140.8333],
+                {"bubblingMouseEvents": true, "color": "#ff5400ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff5400ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.6, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_f6e32fb8e14e8eaecdcec21572be3ced = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_288531fa8b0c859dac86c7a3608f9ff2 = $(`<div id="html_288531fa8b0c859dac86c7a3608f9ff2" style="width: 100.0%; height: 100.0%;">City: hasaki<br>Country: JP<br>Hotel: 大新旅館</div>`)[0];
+                popup_f6e32fb8e14e8eaecdcec21572be3ced.setContent(html_288531fa8b0c859dac86c7a3608f9ff2);
+            
+        
+
+        circle_marker_2b64fcb568d9ed73ffaa2e14071d6364.bindPopup(popup_f6e32fb8e14e8eaecdcec21572be3ced)
+        ;
+
+        
+    
+    
+            var circle_marker_709f8d863958830f7ce2a11d41373d80 = L.circleMarker(
+                [-2.6994, -59.6997],
+                {"bubblingMouseEvents": true, "color": "#46a300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#46a300ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.2, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_e628d680d7a1d22cf6ccdf51e62ff6e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3af007349a24f6f6857a8e1e05f58e7f = $(`<div id="html_3af007349a24f6f6857a8e1e05f58e7f" style="width: 100.0%; height: 100.0%;">City: rio preto da eva<br>Country: BR<br>Hotel: Hotel Santo Antonio</div>`)[0];
+                popup_e628d680d7a1d22cf6ccdf51e62ff6e0.setContent(html_3af007349a24f6f6857a8e1e05f58e7f);
+            
+        
+
+        circle_marker_709f8d863958830f7ce2a11d41373d80.bindPopup(popup_e628d680d7a1d22cf6ccdf51e62ff6e0)
+        ;
+
+        
+    
+    
+            var circle_marker_9c99d827b648cb920dcd9f4e92fb6414 = L.circleMarker(
+                [43.6791, 10.4994],
+                {"bubblingMouseEvents": true, "color": "#319800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#319800ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.8, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_2bc779cec94d4bbc6d037f6516b3228a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59caaf36ab1169879bdf4244dc74227a = $(`<div id="html_59caaf36ab1169879bdf4244dc74227a" style="width: 100.0%; height: 100.0%;">City: cascina<br>Country: IT<br>Hotel: Euro Hotel</div>`)[0];
+                popup_2bc779cec94d4bbc6d037f6516b3228a.setContent(html_59caaf36ab1169879bdf4244dc74227a);
+            
+        
+
+        circle_marker_9c99d827b648cb920dcd9f4e92fb6414.bindPopup(popup_2bc779cec94d4bbc6d037f6516b3228a)
+        ;
+
+        
+    
+    
+            var circle_marker_12e1e28972e071582cd04d41567ce6af = L.circleMarker(
+                [46.4154, 3.9054],
+                {"bubblingMouseEvents": true, "color": "#7dbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7dbe00ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_c64cdacc10c85d2d8167b125f0655f16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bb06c853a7faa45135e6562684f0ea8 = $(`<div id="html_7bb06c853a7faa45135e6562684f0ea8" style="width: 100.0%; height: 100.0%;">City: saint-francois<br>Country: FR<br>Hotel: Chez Lily</div>`)[0];
+                popup_c64cdacc10c85d2d8167b125f0655f16.setContent(html_7bb06c853a7faa45135e6562684f0ea8);
+            
+        
+
+        circle_marker_12e1e28972e071582cd04d41567ce6af.bindPopup(popup_c64cdacc10c85d2d8167b125f0655f16)
+        ;
+
+        
+    
+    
+            var circle_marker_2472254294b4ab9797e4189f05a6d94f = L.circleMarker(
+                [24.0934, 32.907],
+                {"bubblingMouseEvents": true, "color": "#0015d4ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0015d4ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_3853a24cdd9110ec9b5165a66f92ff1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6443fbc1387c1d72094b01c5240466a6 = $(`<div id="html_6443fbc1387c1d72094b01c5240466a6" style="width: 100.0%; height: 100.0%;">City: aswan<br>Country: EG<br>Hotel: Yaseen hotel</div>`)[0];
+                popup_3853a24cdd9110ec9b5165a66f92ff1c.setContent(html_6443fbc1387c1d72094b01c5240466a6);
+            
+        
+
+        circle_marker_2472254294b4ab9797e4189f05a6d94f.bindPopup(popup_3853a24cdd9110ec9b5165a66f92ff1c)
+        ;
+
+        
+    
+    
+            var circle_marker_0e3b38a99b524be1419f5a237005a73c = L.circleMarker(
+                [38.4362, 57.4316],
+                {"bubblingMouseEvents": true, "color": "#00417dff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00417dff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.6, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_b114745fda9e87e33caee094267f35c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdf8da8c017348bd474dff171f70aff0 = $(`<div id="html_cdf8da8c017348bd474dff171f70aff0" style="width: 100.0%; height: 100.0%;">City: baharly<br>Country: TM<br>Hotel: No Hotel found</div>`)[0];
+                popup_b114745fda9e87e33caee094267f35c8.setContent(html_cdf8da8c017348bd474dff171f70aff0);
+            
+        
+
+        circle_marker_0e3b38a99b524be1419f5a237005a73c.bindPopup(popup_b114745fda9e87e33caee094267f35c8)
+        ;
+
+        
+    
+    
+            var circle_marker_6cfe9f6b594da3eb44ea351d8d41fca5 = L.circleMarker(
+                [-9.7667, 37.9333],
+                {"bubblingMouseEvents": true, "color": "#005c46ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#005c46ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.6, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_c209d52db152ec2cf10546bd71f85363 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac75b99f2810fd9733434f01f3e9bd46 = $(`<div id="html_ac75b99f2810fd9733434f01f3e9bd46" style="width: 100.0%; height: 100.0%;">City: liwale<br>Country: TZ<br>Hotel: No Hotel found</div>`)[0];
+                popup_c209d52db152ec2cf10546bd71f85363.setContent(html_ac75b99f2810fd9733434f01f3e9bd46);
+            
+        
+
+        circle_marker_6cfe9f6b594da3eb44ea351d8d41fca5.bindPopup(popup_c209d52db152ec2cf10546bd71f85363)
+        ;
+
+        
+    
+    
+            var circle_marker_abbaa79268be4669b46e00e8b7a6a87e = L.circleMarker(
+                [36.9529, 65.1238],
+                {"bubblingMouseEvents": true, "color": "#003693ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#003693ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.2, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_43900fdf6184eb7aa2bfa672296e98b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_731a0f037485b73177baa078fc0f88c6 = $(`<div id="html_731a0f037485b73177baa078fc0f88c6" style="width: 100.0%; height: 100.0%;">City: andkhoy<br>Country: AF<br>Hotel: No Hotel found</div>`)[0];
+                popup_43900fdf6184eb7aa2bfa672296e98b7.setContent(html_731a0f037485b73177baa078fc0f88c6);
+            
+        
+
+        circle_marker_abbaa79268be4669b46e00e8b7a6a87e.bindPopup(popup_43900fdf6184eb7aa2bfa672296e98b7)
+        ;
+
+        
+    
+    
+            var circle_marker_f4d8b44e7b2a25c5c838b0d164bbdeb1 = L.circleMarker(
+                [37.2989, 62.3597],
+                {"bubblingMouseEvents": true, "color": "#00319dff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00319dff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.0, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_b01a1797f4ce770c565c6b731e6155bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25135416953ac775f470fff110a59f71 = $(`<div id="html_25135416953ac775f470fff110a59f71" style="width: 100.0%; height: 100.0%;">City: yoloten<br>Country: TM<br>Hotel: No Hotel found</div>`)[0];
+                popup_b01a1797f4ce770c565c6b731e6155bc.setContent(html_25135416953ac775f470fff110a59f71);
+            
+        
+
+        circle_marker_f4d8b44e7b2a25c5c838b0d164bbdeb1.bindPopup(popup_b01a1797f4ce770c565c6b731e6155bc)
+        ;
+
+        
+    
+    
+            var circle_marker_16e0f04509b82d11e5247c67c2b2b140 = L.circleMarker(
+                [32.1667, -8.8333],
+                {"bubblingMouseEvents": true, "color": "#00319dff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00319dff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.0, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_6d4c123db1c75bc2ed228aa3862ba8d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_520736779c080fb7a452a0908d47b6bb = $(`<div id="html_520736779c080fb7a452a0908d47b6bb" style="width: 100.0%; height: 100.0%;">City: safi<br>Country: MA<br>Hotel: No Hotel found</div>`)[0];
+                popup_6d4c123db1c75bc2ed228aa3862ba8d5.setContent(html_520736779c080fb7a452a0908d47b6bb);
+            
+        
+
+        circle_marker_16e0f04509b82d11e5247c67c2b2b140.bindPopup(popup_6d4c123db1c75bc2ed228aa3862ba8d5)
+        ;
+
+        
+    
+    
+            var circle_marker_734f3faa52c28b32f68f78f842f62349 = L.circleMarker(
+                [-18.3667, 21.85],
+                {"bubblingMouseEvents": true, "color": "#0000ffff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ffff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.2, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_d18ff42f43f772d17b633afb641f65ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_575f32d4955e38dad8b0b3ca4d494538 = $(`<div id="html_575f32d4955e38dad8b0b3ca4d494538" style="width: 100.0%; height: 100.0%;">City: shakawe<br>Country: BW<br>Hotel: Drotsky's Cabins</div>`)[0];
+                popup_d18ff42f43f772d17b633afb641f65ce.setContent(html_575f32d4955e38dad8b0b3ca4d494538);
+            
+        
+
+        circle_marker_734f3faa52c28b32f68f78f842f62349.bindPopup(popup_d18ff42f43f772d17b633afb641f65ce)
+        ;
+
+        
+    
+    
+            var circle_marker_8d95cfae493d048c3f5916a5fdc18a6c = L.circleMarker(
+                [24.2049, 23.2857],
+                {"bubblingMouseEvents": true, "color": "#0015d4ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0015d4ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_bd7702306f1c655c847b807e4e0f675f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eaeb22b262941a12ba5f8c275e3a9f8e = $(`<div id="html_eaeb22b262941a12ba5f8c275e3a9f8e" style="width: 100.0%; height: 100.0%;">City: at taj<br>Country: LY<br>Hotel: No Hotel found</div>`)[0];
+                popup_bd7702306f1c655c847b807e4e0f675f.setContent(html_eaeb22b262941a12ba5f8c275e3a9f8e);
+            
+        
+
+        circle_marker_8d95cfae493d048c3f5916a5fdc18a6c.bindPopup(popup_bd7702306f1c655c847b807e4e0f675f)
+        ;
+
+        
+    
+    
+            var circle_marker_fd4588ce990d2f1aa65449a945bf42ae = L.circleMarker(
+                [33.7218, 66.1302],
+                {"bubblingMouseEvents": true, "color": "#000aeaff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#000aeaff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.6, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_95576db34b3d64db2ef86126734af6d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a40ff293398815147d5e182f66b84658 = $(`<div id="html_a40ff293398815147d5e182f66b84658" style="width: 100.0%; height: 100.0%;">City: nili<br>Country: AF<br>Hotel: No Hotel found</div>`)[0];
+                popup_95576db34b3d64db2ef86126734af6d4.setContent(html_a40ff293398815147d5e182f66b84658);
+            
+        
+
+        circle_marker_fd4588ce990d2f1aa65449a945bf42ae.bindPopup(popup_95576db34b3d64db2ef86126734af6d4)
+        ;
+
+        
+    
+    
+            var circle_marker_e0b7ac7d925fb52c6814e5c84cfdafee = L.circleMarker(
+                [-14.2667, 50.1667],
+                {"bubblingMouseEvents": true, "color": "#ffca00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffca00ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.4, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_9c5953d8f3230fc64a7d8068f68bf6bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7db0104ed0ed0a7b48a51fccb99248c = $(`<div id="html_f7db0104ed0ed0a7b48a51fccb99248c" style="width: 100.0%; height: 100.0%;">City: sambava<br>Country: MG<br>Hotel: Royal Sava Hôtel</div>`)[0];
+                popup_9c5953d8f3230fc64a7d8068f68bf6bc.setContent(html_f7db0104ed0ed0a7b48a51fccb99248c);
+            
+        
+
+        circle_marker_e0b7ac7d925fb52c6814e5c84cfdafee.bindPopup(popup_9c5953d8f3230fc64a7d8068f68bf6bc)
+        ;
+
+        
+    
+    
+            var circle_marker_a8cc7a69d81d72471261cfbc625ef423 = L.circleMarker(
+                [27.0377, 14.4283],
+                {"bubblingMouseEvents": true, "color": "#002ba8ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#002ba8ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_6758877d1c0ddda692676e75762683dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e70497d77588d948fa0af33d3b7f7193 = $(`<div id="html_e70497d77588d948fa0af33d3b7f7193" style="width: 100.0%; height: 100.0%;">City: sabha<br>Country: LY<br>Hotel: فندق الكاظم-سبها</div>`)[0];
+                popup_6758877d1c0ddda692676e75762683dd.setContent(html_e70497d77588d948fa0af33d3b7f7193);
+            
+        
+
+        circle_marker_a8cc7a69d81d72471261cfbc625ef423.bindPopup(popup_6758877d1c0ddda692676e75762683dd)
+        ;
+
+        
+    
+    
+            var circle_marker_864836daeba782d10fd3cc386c4379b0 = L.circleMarker(
+                [37.3638, -79.2897],
+                {"bubblingMouseEvents": true, "color": "#ff6200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6200ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.2, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_d49611046a2eb44772201c636476cb07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a834b2ae7d7c5835d6886fd42368033 = $(`<div id="html_6a834b2ae7d7c5835d6886fd42368033" style="width: 100.0%; height: 100.0%;">City: forest<br>Country: US<br>Hotel: Tru by Hilton Lynchburg</div>`)[0];
+                popup_d49611046a2eb44772201c636476cb07.setContent(html_6a834b2ae7d7c5835d6886fd42368033);
+            
+        
+
+        circle_marker_864836daeba782d10fd3cc386c4379b0.bindPopup(popup_d49611046a2eb44772201c636476cb07)
+        ;
+
+        
+    
+    
+            var circle_marker_3bd4b0dd230a319c922fde86dcf696c9 = L.circleMarker(
+                [52.5083, 5.475],
+                {"bubblingMouseEvents": true, "color": "#ffd100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd100ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.0, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_7f70fad323585b885e2d0855465b6cdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a70b16d23015daf13d07a176372fa06 = $(`<div id="html_9a70b16d23015daf13d07a176372fa06" style="width: 100.0%; height: 100.0%;">City: lelystad<br>Country: NL<br>Hotel: Leonardo Hotel</div>`)[0];
+                popup_7f70fad323585b885e2d0855465b6cdd.setContent(html_9a70b16d23015daf13d07a176372fa06);
+            
+        
+
+        circle_marker_3bd4b0dd230a319c922fde86dcf696c9.bindPopup(popup_7f70fad323585b885e2d0855465b6cdd)
+        ;
+
+        
+    
+    
+            var circle_marker_812c5bc80efef44080c7b23e720102e2 = L.circleMarker(
+                [28.629, -17.9293],
+                {"bubblingMouseEvents": true, "color": "#c9e400ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c9e400ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.6, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_848dce673eece1d9ce3c6fa9a8b998e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8c65979eb984b8684da5dbf5830a29a = $(`<div id="html_c8c65979eb984b8684da5dbf5830a29a" style="width: 100.0%; height: 100.0%;">City: tazacorte<br>Country: ES<br>Hotel: App Leyma</div>`)[0];
+                popup_848dce673eece1d9ce3c6fa9a8b998e5.setContent(html_c8c65979eb984b8684da5dbf5830a29a);
+            
+        
+
+        circle_marker_812c5bc80efef44080c7b23e720102e2.bindPopup(popup_848dce673eece1d9ce3c6fa9a8b998e5)
+        ;
+
+        
+    
+    
+            var circle_marker_c2544362d83cd9c138f454c241569ca1 = L.circleMarker(
+                [39.5772, 32.1413],
+                {"bubblingMouseEvents": true, "color": "#0020beff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0020beff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.4, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_0fb3a119a707b91cd78ed5c551e35204 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c93ededb7f5f71aa1128352aad0b962 = $(`<div id="html_4c93ededb7f5f71aa1128352aad0b962" style="width: 100.0%; height: 100.0%;">City: polatli<br>Country: TR<br>Hotel: No Hotel found</div>`)[0];
+                popup_0fb3a119a707b91cd78ed5c551e35204.setContent(html_4c93ededb7f5f71aa1128352aad0b962);
+            
+        
+
+        circle_marker_c2544362d83cd9c138f454c241569ca1.bindPopup(popup_0fb3a119a707b91cd78ed5c551e35204)
+        ;
+
+        
+    
+    
+            var circle_marker_04e751b05bdfe2f942510405b3d21d1f = L.circleMarker(
+                [-22.9661, -42.0278],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.6, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_57b00af48df7fab7e298f339d517ef4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_348a53cb45152e654dfdb7974255c60b = $(`<div id="html_348a53cb45152e654dfdb7974255c60b" style="width: 100.0%; height: 100.0%;">City: arraial do cabo<br>Country: BR<br>Hotel: No Hotel found</div>`)[0];
+                popup_57b00af48df7fab7e298f339d517ef4d.setContent(html_348a53cb45152e654dfdb7974255c60b);
+            
+        
+
+        circle_marker_04e751b05bdfe2f942510405b3d21d1f.bindPopup(popup_57b00af48df7fab7e298f339d517ef4d)
+        ;
+
+        
+    
+    
+            var circle_marker_de7c30d3496f267c25aa01b0bb7082bb = L.circleMarker(
+                [33.9843, -88.4881],
+                {"bubblingMouseEvents": true, "color": "#ff3f00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff3f00ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.2, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_7bc8fff830487d466772e154e7345e08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e718a5ce7fa36504898a0aa51ae8dbd = $(`<div id="html_4e718a5ce7fa36504898a0aa51ae8dbd" style="width: 100.0%; height: 100.0%;">City: amory<br>Country: US<br>Hotel: No Hotel found</div>`)[0];
+                popup_7bc8fff830487d466772e154e7345e08.setContent(html_4e718a5ce7fa36504898a0aa51ae8dbd);
+            
+        
+
+        circle_marker_de7c30d3496f267c25aa01b0bb7082bb.bindPopup(popup_7bc8fff830487d466772e154e7345e08)
+        ;
+
+        
+    
+    
+            var circle_marker_d3c0653e45b3f66f0c96bbfc5efa4890 = L.circleMarker(
+                [-11.3167, 40.35],
+                {"bubblingMouseEvents": true, "color": "#fff400ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff400ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.2, "stroke": true, "weight": 3}
+            ).addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+        
+    
+        var popup_598c92782fb97f0956dbc41d1fece0bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d88ff1f5f2d1d2e64a42cf842136077b = $(`<div id="html_d88ff1f5f2d1d2e64a42cf842136077b" style="width: 100.0%; height: 100.0%;">City: mocimboa<br>Country: MZ<br>Hotel: Vumba</div>`)[0];
+                popup_598c92782fb97f0956dbc41d1fece0bf.setContent(html_d88ff1f5f2d1d2e64a42cf842136077b);
+            
+        
+
+        circle_marker_d3c0653e45b3f66f0c96bbfc5efa4890.bindPopup(popup_598c92782fb97f0956dbc41d1fece0bf)
+        ;
+
+        
+    
+    
+    var color_map_b49755289e14037afb318cbef8439ad6 = {};
+
+    
+    color_map_b49755289e14037afb318cbef8439ad6.color = d3.scale.threshold()
+              .domain([6.0, 6.188376753507014, 6.376753507014028, 6.565130260521042, 6.753507014028056, 6.94188376753507, 7.130260521042084, 7.318637274549098, 7.507014028056112, 7.695390781563126, 7.88376753507014, 8.072144288577155, 8.260521042084168, 8.448897795591183, 8.637274549098196, 8.82565130260521, 9.014028056112224, 9.202404809619239, 9.390781563126252, 9.579158316633267, 9.76753507014028, 9.955911823647295, 10.14428857715431, 10.332665330661323, 10.521042084168336, 10.70941883767535, 10.897795591182366, 11.086172344689379, 11.274549098196392, 11.462925851703407, 11.651302605210422, 11.839679358717435, 12.028056112224448, 12.216432865731463, 12.404809619238478, 12.59318637274549, 12.781563126252504, 12.969939879759519, 13.158316633266534, 13.346693386773547, 13.535070140280562, 13.723446893787575, 13.91182364729459, 14.100200400801603, 14.288577154308618, 14.47695390781563, 14.665330661322646, 14.853707414829659, 15.042084168336673, 15.230460921843687, 15.418837675350701, 15.607214428857715, 15.79559118236473, 15.983967935871744, 16.172344689378757, 16.360721442885772, 16.549098196392784, 16.7374749498998, 16.925851703406813, 17.11422845691383, 17.302605210420843, 17.490981963927858, 17.67935871743487, 17.867735470941884, 18.056112224448896, 18.24448897795591, 18.432865731462925, 18.62124248496994, 18.809619238476955, 18.99799599198397, 19.18637274549098, 19.374749498997996, 19.563126252505008, 19.751503006012022, 19.939879759519037, 20.128256513026052, 20.316633266533067, 20.505010020040082, 20.693386773547093, 20.881763527054108, 21.070140280561123, 21.258517034068134, 21.44689378757515, 21.635270541082164, 21.82364729458918, 22.012024048096194, 22.200400801603205, 22.38877755511022, 22.577154308617235, 22.76553106212425, 22.95390781563126, 23.142284569138276, 23.33066132264529, 23.519038076152306, 23.707414829659317, 23.895791583166332, 24.084168336673347, 24.272545090180362, 24.460921843687373, 24.649298597194388, 24.837675350701403, 25.026052104208418, 25.21442885771543, 25.402805611222444, 25.59118236472946, 25.779559118236474, 25.96793587174349, 26.1563126252505, 26.344689378757515, 26.53306613226453, 26.721442885771545, 26.909819639278556, 27.09819639278557, 27.286573146292586, 27.4749498997996, 27.663326653306612, 27.851703406813627, 28.04008016032064, 28.228456913827657, 28.416833667334668, 28.605210420841683, 28.793587174348698, 28.981963927855713, 29.170340681362724, 29.35871743486974, 29.547094188376754, 29.73547094188377, 29.92384769539078, 30.112224448897795, 30.30060120240481, 30.488977955911825, 30.677354709418836, 30.86573146292585, 31.054108216432866, 31.24248496993988, 31.430861723446895, 31.619238476953907, 31.80761523046092, 31.995991983967937, 32.184368737474955, 32.37274549098196, 32.56112224448898, 32.74949899799599, 32.93787575150301, 33.126252505010015, 33.31462925851703, 33.503006012024045, 33.69138276553106, 33.879759519038075, 34.06813627254509, 34.256513026052104, 34.44488977955912, 34.633266533066134, 34.82164328657315, 35.010020040080164, 35.19839679358718, 35.38677354709419, 35.5751503006012, 35.763527054108216, 35.95190380761523, 36.140280561122246, 36.328657314629254, 36.51703406813627, 36.705410821643284, 36.8937875751503, 37.08216432865731, 37.27054108216433, 37.45891783567134, 37.64729458917836, 37.83567134268537, 38.02404809619239, 38.212424849699396, 38.40080160320641, 38.589178356713425, 38.77755511022044, 38.965931863727455, 39.15430861723447, 39.342685370741485, 39.5310621242485, 39.71943887775551, 39.90781563126252, 40.09619238476954, 40.28456913827655, 40.47294589178357, 40.66132264529058, 40.8496993987976, 41.03807615230461, 41.22645290581163, 41.414829659318634, 41.60320641282565, 41.791583166332664, 41.97995991983968, 42.168336673346694, 42.35671342685371, 42.545090180360724, 42.73346693386774, 42.921843687374746, 43.11022044088176, 43.298597194388776, 43.48697394789579, 43.675350701402806, 43.86372745490982, 44.052104208416836, 44.24048096192385, 44.42885771543086, 44.61723446893787, 44.80561122244489, 44.9939879759519, 45.18236472945892, 45.37074148296593, 45.55911823647295, 45.74749498997996, 45.93587174348698, 46.124248496993985, 46.312625250501, 46.501002004008015, 46.68937875751503, 46.877755511022045, 47.06613226452906, 47.254509018036075, 47.44288577154309, 47.6312625250501, 47.81963927855711, 48.00801603206413, 48.19639278557114, 48.38476953907816, 48.57314629258517, 48.76152304609219, 48.9498997995992, 49.13827655310621, 49.326653306613224, 49.51503006012024, 49.703406813627254, 49.89178356713427, 50.08016032064128, 50.2685370741483, 50.45691382765531, 50.64529058116233, 50.833667334669336, 51.02204408817635, 51.210420841683366, 51.39879759519038, 51.587174348697395, 51.77555110220441, 51.963927855711425, 52.15230460921844, 52.34068136272545, 52.52905811623246, 52.71743486973948, 52.90581162324649, 53.09418837675351, 53.28256513026052, 53.47094188376754, 53.65931863727455, 53.84769539078156, 54.036072144288575, 54.22444889779559, 54.412825651302605, 54.60120240480962, 54.789579158316634, 54.97795591182365, 55.166332665330664, 55.35470941883767, 55.54308617234469, 55.7314629258517, 55.91983967935872, 56.10821643286573, 56.296593186372746, 56.48496993987976, 56.673346693386776, 56.86172344689379, 57.0501002004008, 57.23847695390781, 57.42685370741483, 57.61523046092184, 57.80360721442886, 57.99198396793587, 58.18036072144289, 58.3687374749499, 58.55711422845691, 58.745490981963925, 58.93386773547094, 59.122244488977955, 59.31062124248497, 59.498997995991985, 59.687374749499, 59.875751503006015, 60.06412825651302, 60.25250501002004, 60.44088176352705, 60.62925851703407, 60.81763527054108, 61.0060120240481, 61.19438877755511, 61.38276553106213, 61.57114228456914, 61.75951903807615, 61.947895791583164, 62.13627254509018, 62.324649298597194, 62.51302605210421, 62.701402805611224, 62.88977955911824, 63.078156312625254, 63.26653306613226, 63.454909819639276, 63.64328657314629, 63.831663326653306, 64.02004008016033, 64.20841683366734, 64.39679358717436, 64.58517034068137, 64.77354709418837, 64.96192384769539, 65.1503006012024, 65.33867735470942, 65.52705410821643, 65.71543086172345, 65.90380761523046, 66.09218436873748, 66.28056112224449, 66.4689378757515, 66.65731462925851, 66.84569138276552, 67.03406813627254, 67.22244488977955, 67.41082164328657, 67.59919839679358, 67.7875751503006, 67.97595190380761, 68.16432865731463, 68.35270541082164, 68.54108216432866, 68.72945891783567, 68.91783567134269, 69.1062124248497, 69.29458917835672, 69.48296593186373, 69.67134268537075, 69.85971943887776, 70.04809619238478, 70.23647294589178, 70.42484969939879, 70.6132264529058, 70.80160320641282, 70.98997995991984, 71.17835671342685, 71.36673346693387, 71.55511022044088, 71.7434869739479, 71.93186372745491, 72.12024048096193, 72.30861723446894, 72.49699398797596, 72.68537074148297, 72.87374749498998, 73.062124248497, 73.25050100200401, 73.43887775551102, 73.62725450901803, 73.81563126252505, 74.00400801603206, 74.19238476953907, 74.38076152304609, 74.5691382765531, 74.75751503006012, 74.94589178356713, 75.13426853707415, 75.32264529058116, 75.51102204408818, 75.6993987975952, 75.88777555110221, 76.07615230460922, 76.26452905811624, 76.45290581162325, 76.64128256513025, 76.82965931863727, 77.01803607214428, 77.2064128256513, 77.39478957915831, 77.58316633266533, 77.77154308617234, 77.95991983967936, 78.14829659318637, 78.33667334669339, 78.5250501002004, 78.71342685370742, 78.90180360721443, 79.09018036072145, 79.27855711422846, 79.46693386773548, 79.65531062124248, 79.84368737474949, 80.03206412825651, 80.22044088176352, 80.40881763527054, 80.59719438877755, 80.78557114228457, 80.97394789579158, 81.1623246492986, 81.35070140280561, 81.53907815631263, 81.72745490981964, 81.91583166332666, 82.10420841683367, 82.29258517034069, 82.4809619238477, 82.66933867735472, 82.85771543086172, 83.04609218436873, 83.23446893787575, 83.42284569138276, 83.61122244488978, 83.79959919839679, 83.9879759519038, 84.17635270541082, 84.36472945891784, 84.55310621242485, 84.74148296593187, 84.92985971943888, 85.1182364729459, 85.30661322645291, 85.49498997995993, 85.68336673346694, 85.87174348697395, 86.06012024048096, 86.24849699398797, 86.43687374749499, 86.625250501002, 86.81362725450902, 87.00200400801603, 87.19038076152304, 87.37875751503006, 87.56713426853707, 87.75551102204409, 87.9438877755511, 88.13226452905812, 88.32064128256513, 88.50901803607215, 88.69739478957916, 88.88577154308618, 89.07414829659318, 89.2625250501002, 89.45090180360721, 89.63927855711422, 89.82765531062124, 90.01603206412825, 90.20440881763527, 90.39278557114228, 90.5811623246493, 90.76953907815631, 90.95791583166333, 91.14629258517034, 91.33466933867736, 91.52304609218437, 91.71142284569139, 91.8997995991984, 92.08817635270542, 92.27655310621242, 92.46492985971943, 92.65330661322645, 92.84168336673346, 93.03006012024048, 93.21843687374749, 93.40681362725451, 93.59519038076152, 93.78356713426854, 93.97194388777555, 94.16032064128257, 94.34869739478958, 94.5370741482966, 94.72545090180361, 94.91382765531063, 95.10220440881764, 95.29058116232466, 95.47895791583166, 95.66733466933867, 95.85571142284569, 96.0440881763527, 96.23246492985972, 96.42084168336673, 96.60921843687375, 96.79759519038076, 96.98597194388778, 97.17434869739479, 97.3627254509018, 97.55110220440882, 97.73947895791584, 97.92785571142285, 98.11623246492987, 98.30460921843688, 98.49298597194388, 98.6813627254509, 98.86973947895791, 99.05811623246493, 99.24649298597194, 99.43486973947896, 99.62324649298597, 99.81162324649299, 100.0])
+              .range(['#0000ffff', '#0001fdff', '#0002fbff', '#0003f9ff', '#0004f7ff', '#0005f5ff', '#0006f3ff', '#0007f1ff', '#0008efff', '#0009edff', '#000aebff', '#000be9ff', '#000ce7ff', '#000de5ff', '#000ee3ff', '#000fe1ff', '#0010dfff', '#0011ddff', '#0012dbff', '#0013d9ff', '#0014d6ff', '#0015d4ff', '#0016d2ff', '#0017d0ff', '#0018ceff', '#0019ccff', '#001acaff', '#001bc8ff', '#001cc6ff', '#001dc4ff', '#001ec2ff', '#001fc0ff', '#0020beff', '#0021bcff', '#0023baff', '#0024b8ff', '#0025b6ff', '#0026b4ff', '#0027b2ff', '#0028afff', '#0029adff', '#002aabff', '#002ba9ff', '#002ca7ff', '#002da5ff', '#002ea3ff', '#002fa1ff', '#00309fff', '#00319dff', '#00329bff', '#003399ff', '#003497ff', '#003595ff', '#003693ff', '#003791ff', '#00388fff', '#00398dff', '#003a8bff', '#003b88ff', '#003c86ff', '#003d84ff', '#003e82ff', '#003f80ff', '#00407eff', '#00417cff', '#00427aff', '#004378ff', '#004576ff', '#004674ff', '#004772ff', '#004870ff', '#00496eff', '#004a6cff', '#004b6aff', '#004c68ff', '#004d66ff', '#004e64ff', '#004f61ff', '#00505fff', '#00515dff', '#00525bff', '#005359ff', '#005457ff', '#005555ff', '#005653ff', '#005751ff', '#00584fff', '#00594dff', '#005a4bff', '#005b49ff', '#005c47ff', '#005d45ff', '#005e43ff', '#005f41ff', '#00603fff', '#00613dff', '#00623aff', '#006338ff', '#006436ff', '#006534ff', '#006732ff', '#006830ff', '#00692eff', '#006a2cff', '#006b2aff', '#006c28ff', '#006d26ff', '#006e24ff', '#006f22ff', '#007020ff', '#00711eff', '#00721cff', '#00731aff', '#007418ff', '#007516ff', '#007614ff', '#007711ff', '#00780fff', '#00790dff', '#007a0bff', '#007b09ff', '#007c07ff', '#007d05ff', '#007e03ff', '#007f01ff', '#008000ff', '#028100ff', '#048200ff', '#068300ff', '#088400ff', '#0a8500ff', '#0c8600ff', '#0e8700ff', '#108800ff', '#128900ff', '#158a00ff', '#178b00ff', '#198d00ff', '#1b8e00ff', '#1d8f00ff', '#1f9000ff', '#219100ff', '#239200ff', '#259300ff', '#279400ff', '#299500ff', '#2b9600ff', '#2d9700ff', '#2f9800ff', '#319900ff', '#339a00ff', '#359b00ff', '#379c00ff', '#399d00ff', '#3c9e00ff', '#3e9f00ff', '#40a000ff', '#42a100ff', '#44a200ff', '#46a300ff', '#48a400ff', '#4aa500ff', '#4ca600ff', '#4ea700ff', '#50a800ff', '#52a900ff', '#54aa00ff', '#56ab00ff', '#58ac00ff', '#5aad00ff', '#5cae00ff', '#5eaf00ff', '#60b000ff', '#63b100ff', '#65b200ff', '#67b300ff', '#69b400ff', '#6bb500ff', '#6db600ff', '#6fb700ff', '#71b800ff', '#73b900ff', '#75bb00ff', '#77bc00ff', '#79bd00ff', '#7bbe00ff', '#7dbf00ff', '#7fc000ff', '#81c100ff', '#83c200ff', '#85c300ff', '#87c400ff', '#8ac500ff', '#8cc600ff', '#8ec700ff', '#90c800ff', '#92c900ff', '#94ca00ff', '#96cb00ff', '#98cc00ff', '#9acd00ff', '#9cce00ff', '#9ecf00ff', '#a0d000ff', '#a2d100ff', '#a4d200ff', '#a6d300ff', '#a8d400ff', '#aad500ff', '#acd600ff', '#aed700ff', '#b0d800ff', '#b3d900ff', '#b5da00ff', '#b7db00ff', '#b9dc00ff', '#bbdd00ff', '#bdde00ff', '#bfdf00ff', '#c1e000ff', '#c3e100ff', '#c5e200ff', '#c7e300ff', '#c9e400ff', '#cbe500ff', '#cde600ff', '#cfe700ff', '#d1e900ff', '#d3ea00ff', '#d5eb00ff', '#d7ec00ff', '#daed00ff', '#dcee00ff', '#deef00ff', '#e0f000ff', '#e2f100ff', '#e4f200ff', '#e6f300ff', '#e8f400ff', '#eaf500ff', '#ecf600ff', '#eef700ff', '#f0f800ff', '#f2f900ff', '#f4fa00ff', '#f6fb00ff', '#f8fc00ff', '#fafd00ff', '#fcfe00ff', '#feff00ff', '#ffff00ff', '#fffe00ff', '#fffe00ff', '#fffd00ff', '#fffc00ff', '#fffc00ff', '#fffb00ff', '#fffa00ff', '#fff900ff', '#fff900ff', '#fff800ff', '#fff700ff', '#fff600ff', '#fff600ff', '#fff500ff', '#fff400ff', '#fff400ff', '#fff300ff', '#fff200ff', '#fff100ff', '#fff100ff', '#fff000ff', '#ffef00ff', '#ffee00ff', '#ffee00ff', '#ffed00ff', '#ffec00ff', '#ffec00ff', '#ffeb00ff', '#ffea00ff', '#ffe900ff', '#ffe900ff', '#ffe800ff', '#ffe700ff', '#ffe700ff', '#ffe600ff', '#ffe500ff', '#ffe400ff', '#ffe400ff', '#ffe300ff', '#ffe200ff', '#ffe100ff', '#ffe100ff', '#ffe000ff', '#ffdf00ff', '#ffdf00ff', '#ffde00ff', '#ffdd00ff', '#ffdc00ff', '#ffdc00ff', '#ffdb00ff', '#ffda00ff', '#ffd900ff', '#ffd900ff', '#ffd800ff', '#ffd700ff', '#ffd700ff', '#ffd600ff', '#ffd500ff', '#ffd400ff', '#ffd400ff', '#ffd300ff', '#ffd200ff', '#ffd200ff', '#ffd100ff', '#ffd000ff', '#ffcf00ff', '#ffcf00ff', '#ffce00ff', '#ffcd00ff', '#ffcc00ff', '#ffcc00ff', '#ffcb00ff', '#ffca00ff', '#ffca00ff', '#ffc900ff', '#ffc800ff', '#ffc700ff', '#ffc700ff', '#ffc600ff', '#ffc500ff', '#ffc400ff', '#ffc400ff', '#ffc300ff', '#ffc200ff', '#ffc200ff', '#ffc100ff', '#ffc000ff', '#ffbf00ff', '#ffbf00ff', '#ffbe00ff', '#ffbd00ff', '#ffbd00ff', '#ffbc00ff', '#ffbb00ff', '#ffba00ff', '#ffba00ff', '#ffb900ff', '#ffb800ff', '#ffb700ff', '#ffb700ff', '#ffb600ff', '#ffb500ff', '#ffb500ff', '#ffb400ff', '#ffb300ff', '#ffb200ff', '#ffb200ff', '#ffb100ff', '#ffb000ff', '#ffaf00ff', '#ffaf00ff', '#ffae00ff', '#ffad00ff', '#ffad00ff', '#ffac00ff', '#ffab00ff', '#ffaa00ff', '#ffaa00ff', '#ffa900ff', '#ffa800ff', '#ffa800ff', '#ffa700ff', '#ffa600ff', '#ffa500ff', '#ffa400ff', '#ffa300ff', '#ffa100ff', '#ffa000ff', '#ff9f00ff', '#ff9e00ff', '#ff9c00ff', '#ff9b00ff', '#ff9a00ff', '#ff9800ff', '#ff9700ff', '#ff9600ff', '#ff9400ff', '#ff9300ff', '#ff9200ff', '#ff9000ff', '#ff8f00ff', '#ff8e00ff', '#ff8c00ff', '#ff8b00ff', '#ff8a00ff', '#ff8800ff', '#ff8700ff', '#ff8600ff', '#ff8400ff', '#ff8300ff', '#ff8200ff', '#ff8000ff', '#ff7f00ff', '#ff7e00ff', '#ff7c00ff', '#ff7b00ff', '#ff7a00ff', '#ff7800ff', '#ff7700ff', '#ff7600ff', '#ff7400ff', '#ff7300ff', '#ff7200ff', '#ff7000ff', '#ff6f00ff', '#ff6e00ff', '#ff6c00ff', '#ff6b00ff', '#ff6a00ff', '#ff6800ff', '#ff6700ff', '#ff6600ff', '#ff6400ff', '#ff6300ff', '#ff6200ff', '#ff6000ff', '#ff5f00ff', '#ff5e00ff', '#ff5c00ff', '#ff5b00ff', '#ff5a00ff', '#ff5800ff', '#ff5700ff', '#ff5600ff', '#ff5400ff', '#ff5300ff', '#ff5200ff', '#ff5000ff', '#ff4f00ff', '#ff4e00ff', '#ff4d00ff', '#ff4b00ff', '#ff4a00ff', '#ff4900ff', '#ff4700ff', '#ff4600ff', '#ff4500ff', '#ff4300ff', '#ff4200ff', '#ff4100ff', '#ff3f00ff', '#ff3e00ff', '#ff3d00ff', '#ff3b00ff', '#ff3a00ff', '#ff3900ff', '#ff3700ff', '#ff3600ff', '#ff3500ff', '#ff3300ff', '#ff3200ff', '#ff3100ff', '#ff2f00ff', '#ff2e00ff', '#ff2d00ff', '#ff2b00ff', '#ff2a00ff', '#ff2900ff', '#ff2700ff', '#ff2600ff', '#ff2500ff', '#ff2300ff', '#ff2200ff', '#ff2100ff', '#ff1f00ff', '#ff1e00ff', '#ff1d00ff', '#ff1b00ff', '#ff1a00ff', '#ff1900ff', '#ff1700ff', '#ff1600ff', '#ff1500ff', '#ff1300ff', '#ff1200ff', '#ff1100ff', '#ff0f00ff', '#ff0e00ff', '#ff0d00ff', '#ff0b00ff', '#ff0a00ff', '#ff0900ff', '#ff0700ff', '#ff0600ff', '#ff0500ff', '#ff0300ff', '#ff0200ff', '#ff0100ff', '#ff0000ff']);
+    
+
+    color_map_b49755289e14037afb318cbef8439ad6.x = d3.scale.linear()
+              .domain([6.0, 100.0])
+              .range([0, 450 - 50]);
+
+    color_map_b49755289e14037afb318cbef8439ad6.legend = L.control({position: 'topright'});
+    color_map_b49755289e14037afb318cbef8439ad6.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_b49755289e14037afb318cbef8439ad6.legend.addTo(map_a89d6b0f2918fea254b972e317f21f3a);
+
+    color_map_b49755289e14037afb318cbef8439ad6.xAxis = d3.svg.axis()
+        .scale(color_map_b49755289e14037afb318cbef8439ad6.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([6.0, 29.5, 53.0, 76.5, 100.0]);
+
+    color_map_b49755289e14037afb318cbef8439ad6.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_b49755289e14037afb318cbef8439ad6.g = color_map_b49755289e14037afb318cbef8439ad6.svg.append("g")
+        .attr("class", "key")
+        .attr("transform", "translate(25,16)");
+
+    color_map_b49755289e14037afb318cbef8439ad6.g.selectAll("rect")
+        .data(color_map_b49755289e14037afb318cbef8439ad6.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_b49755289e14037afb318cbef8439ad6.x(color_map_b49755289e14037afb318cbef8439ad6.color.domain()[i - 1]) : color_map_b49755289e14037afb318cbef8439ad6.x.range()[0],
+            x1: i < color_map_b49755289e14037afb318cbef8439ad6.color.domain().length ? color_map_b49755289e14037afb318cbef8439ad6.x(color_map_b49755289e14037afb318cbef8439ad6.color.domain()[i]) : color_map_b49755289e14037afb318cbef8439ad6.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 40 - 30)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_b49755289e14037afb318cbef8439ad6.g.call(color_map_b49755289e14037afb318cbef8439ad6.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .text("Humidity Levels");
+</script>
+</html>
